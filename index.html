@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NVIDIA Academic Ecosystem | Independent Strategic Case Study | Karim McKenzie</title>
+<style>
+:root{--ink:#1c1f22;--muted:#5a6064;--green:#5c9100;--pale:#e8efde;--bg:#f8f9f7;--line:#dce0dc;--white:#fff}
+*{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--bg);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.5}
+.wrap{max-width:1120px;margin:auto;padding:0 28px}.hero{padding:70px 0 54px;border-bottom:1px solid var(--line)}
+.eyebrow{font-size:12px;letter-spacing:.12em;font-weight:800;color:var(--green);text-transform:uppercase}
+h1{font-size:clamp(38px,6vw,72px);line-height:.98;margin:12px 0 12px;letter-spacing:-.045em} h2{font-size:34px;line-height:1.05;margin:0 0 18px;letter-spacing:-.03em}
+h3{font-size:18px;margin:0 0 8px}.lede{font-size:20px;color:var(--muted);max-width:780px}.question{font-size:25px;line-height:1.25;font-weight:700;max-width:930px;margin:42px 0}
+.loop{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;margin:30px 0}.step{padding:12px 0;border-top:3px solid var(--line);font-size:12px;font-weight:800}.step:first-child,.step:last-child{border-color:var(--green)}
+.mantra{margin-top:36px;background:var(--ink);color:white;padding:22px 26px;font-size:22px;font-weight:800;text-align:center;border-radius:10px}
+section{padding:64px 0;border-bottom:1px solid var(--line)}.sub{color:var(--muted);max-width:850px;margin-bottom:34px}
+.cols3{display:grid;grid-template-columns:repeat(3,1fr);gap:34px}.col{padding-top:14px;border-top:3px solid var(--green)}.label{font-size:11px;color:var(--green);font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+.big{font-size:22px;font-weight:800;line-height:1.2}.muted{color:var(--muted)}.path{display:grid;grid-template-columns:90px 170px 1fr;gap:18px 20px;align-items:start;max-width:760px}
+.num{font-size:12px;color:var(--green);font-weight:800}.gate{border-left:3px solid var(--green);padding-left:26px}.twocol{display:grid;grid-template-columns:1.45fr .75fr;gap:52px}
+.spine{display:flex;gap:7px;flex-wrap:wrap}.chip{font-size:11px;font-weight:800;padding:8px 10px;border-bottom:3px solid var(--line)}.chip:first-child,.chip:last-child{border-color:var(--green)}
+.lanes{margin-top:34px}.lane{display:grid;grid-template-columns:170px 1fr;gap:24px;padding:13px 0;border-top:1px solid var(--line)}.lane b{font-size:12px}
+.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin:28px 0}.metric{padding:18px 0;border-top:3px solid var(--green)}.metric strong{display:block;font-size:30px;color:var(--green)}
+.decision{display:flex;flex-wrap:wrap;gap:9px}.decision span{padding:8px 13px;border-radius:999px;background:var(--ink);color:#fff;font-size:11px;font-weight:800}
+.standard{display:grid;grid-template-columns:1fr 1fr;gap:55px}.standard>div{border-top:3px solid var(--green);padding-top:15px}.contrib{margin-top:46px;display:grid;grid-template-columns:.8fr 1.2fr;gap:50px}
+.footer{padding:36px 0 60px;color:var(--muted);font-size:12px}.note{font-size:12px;color:var(--muted);margin-top:20px}
+@media(max-width:760px){.loop,.cols3,.metrics,.standard,.twocol,.contrib{grid-template-columns:1fr}.path{grid-template-columns:45px 1fr}.path .desc{grid-column:2}.question{font-size:21px}}
+.nav{position:sticky;top:0;z-index:20;background:rgba(248,249,247,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.navin{max-width:1120px;margin:auto;padding:11px 28px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.brand{font-size:12px;font-weight:900;letter-spacing:.06em}.links{display:flex;gap:16px;flex-wrap:wrap}
+.links a{font-size:11px;font-weight:800;color:var(--muted);text-decoration:none}.links a:hover{color:var(--green)}
+.reveal{opacity:0;transform:translateY(12px);transition:opacity .5s ease,transform .5s ease}.reveal.on{opacity:1;transform:none}
+.progress{position:fixed;left:0;top:0;height:3px;background:var(--green);width:0;z-index:50}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start}.aboutfacts{border-top:3px solid var(--green);padding-top:14px}
+@media(max-width:760px){.links{display:none}.about{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="progress" id="progress"></div>
+<nav class="nav"><div class="navin"><div class="brand">KARIM McKENZIE · CASE STUDY</div>
+<div class="links"><a href="#prioritize">PRIORITIZE</a><a href="#match">DISCOVER + MATCH</a><a href="#execute">EXECUTE</a><a href="#measure">MEASURE</a><a href="#scale">SCALE</a><a href="#about">ABOUT</a></div>
+</div></nav>
+<header class="hero"><div class="wrap">
+<div class="eyebrow">Independent Strategic Case Study</div>
+<h1>NVIDIA Academic Ecosystem</h1>
+<div class="lede">From Pilot to Platform — a scalable operating model for higher education and research programs.</div>
+<div class="question">How can NVIDIA systematically identify academic opportunities worth deeper discovery, match validated needs to the right engagement, execute consistently, measure outcomes, and scale what works?</div>
+<div class="loop">
+<div class="step">01 PRIORITIZE</div><div class="step">02 DISCOVER</div><div class="step">03 MATCH</div><div class="step">04 EXECUTE</div><div class="step">05 MEASURE</div><div class="step">06 SCALE</div>
+</div>
+<div class="muted" style="text-align:center;font-weight:700">Signal → Discovery → Validated Need → NVIDIA Fit → Engagement → Evidence → Scale</div>
+<div class="mantra">STANDARDIZE THE OPERATING MODEL. CUSTOMIZE THE ENGAGEMENT.</div>
+</div></header>
+<section id="prioritize"><div class="wrap reveal">
+<div class="eyebrow">01 — Prioritize & Discover</div><h2>Three universities. Three discovery problems.</h2>
+<p class="sub">Public data creates hypotheses. It does not establish institutional need or determine an NVIDIA engagement.</p>
+<div class="cols3">
+<div class="col"><h3>CALTECH</h3><div class="big">Mature technical ecosystem</div><p class="muted">Robotics/autonomy, advanced computing curriculum, mature GPU/CUDA environment.</p><div class="label">Pressure test</div><p><b>Readiness ≠ unmet need.</b></p><p>Where could NVIDIA deepen, expand, or connect existing adoption — if an incremental gap exists?</p></div>
+<div class="col"><h3>AUBURN</h3><div class="big">Applied research + education</div><p class="muted">AU-CAICE AI/cyber, ICAMS, substantial HPC with existing NVIDIA GPU capacity.</p><div class="label">Pressure test</div><p><b>Capability ≠ sufficiency.</b></p><p>Are workloads, access, curriculum, or adoption barriers limiting the intended academic outcome?</p></div>
+<div class="col"><h3>FIU</h3><div class="big">Shared research cores</div><p class="muted">Biostatistics, imaging, cell engineering, genomics and broad multidisciplinary R1 activity.</p><div class="label">Pressure test</div><p><b>Follow the workflow.</b></p><p>Where does computation occur downstream, and is there a validated bottleneck NVIDIA can address?</p></div>
+</div>
+<p class="big" style="margin-top:38px">Portfolio question: Which opportunities warrant deeper discovery — and what must be learned before NVIDIA commits resources?</p>
+</div></section>
+<section id="match"><div class="wrap reveal">
+<div class="eyebrow">02 — Discover & Match</div><h2>Auburn AU-CAICE: signal to engagement decision</h2>
+<p class="sub">Illustrative scenario only. The validated gap below is hypothetical and would require stakeholder and technical discovery.</p>
+<div class="twocol"><div class="path">
+<div class="num">01</div><b>PUBLIC SIGNAL</b><div class="desc muted">AI/cyber research + formal education + existing HPC/GPU capacity</div>
+<div class="num">02</div><b>HYPOTHESIS</b><div class="desc muted">Could hands-on accelerated-computing exposure deepen the academic experience?</div>
+<div class="num">03</div><b>DISCOVERY</b><div class="desc muted">Curriculum • audience • workloads • software • access • blockers • baseline</div>
+<div class="num">04</div><b>VALIDATED GAP*</b><div class="desc">Illustrative only: discovery confirms limited practical exposure relevant to curriculum</div>
+<div class="num">05</div><b>MATCH</b><div class="desc">Evaluate an appropriately scoped learning / curriculum engagement with NVIDIA specialists</div>
+</div>
+<div class="gate"><div class="label">Decision gate</div><p class="big">Validated Need<br>+ Applicable NVIDIA Capability<br>+ Organizational Readiness</p><p><b>If unclear:</b> more discovery / defer.</p><p><b style="color:var(--green)">If supported:</b> match intervention maturity to opportunity maturity.</p><p class="big" style="color:var(--green)">Need first. NVIDIA second.</p></div>
+</div><p class="note">*Hypothetical scenario; not a claim about Auburn or NVIDIA.</p>
+</div></section>
+<section id="execute"><div class="wrap reveal">
+<div class="eyebrow">03 — Execute</div><h2>Turn an approved engagement into an executable pilot</h2>
+<p class="sub">The TPM builds the operating structure around academic and technical expertise.</p>
+<div class="spine"><span class="chip">OBJECTIVE</span><span class="chip">SCOPE</span><span class="chip">BASELINE</span><span class="chip">OWNERS</span><span class="chip">RESOURCES</span><span class="chip">DEPENDENCIES</span><span class="chip">MILESTONES</span><span class="chip">RISKS</span><span class="chip">APPROVALS</span><span class="chip">SUCCESS</span></div>
+<div class="lanes">
+<div class="lane"><b>ACADEMIC OWNER</b><span>Defines academic objective, curriculum context, intended student/faculty outcome.</span></div>
+<div class="lane"><b>TECHNICAL EXPERTS</b><span>Validate workload, environment, tooling, feasibility and technical blockers.</span></div>
+<div class="lane"><b>TPM</b><span>Connect scope, owners, dependencies, milestones, risks, decisions, escalation and measurement.</span></div>
+<div class="lane"><b>PROGRAM / ACCOUNT</b><span>Align broader institutional relationship, resources and engagement pathway.</span></div>
+</div>
+<p class="big">Champion ≠ Owner ≠ Approver <span style="color:var(--green)">| Post-pilot: Who owns the outcome after the pilot ends?</span></p>
+</div></section>
+<section id="measure"><div class="wrap reveal">
+<div class="eyebrow">04 — Measure</div><h2>Executive dashboard: evidence for the next decision</h2>
+<p class="sub">Illustrative pilot data only. The dashboard supports governance; it does not make the decision.</p>
+<div class="metrics">
+<div class="metric"><span class="label">Reach</span><strong>40 / 45</strong><span>participants / target</span></div>
+<div class="metric"><span class="label">Learning</span><strong>+22%</strong><span>pre/post assessment</span></div>
+<div class="metric"><span class="label">Adoption</span><strong>3</strong><span>faculty continuing use</span></div>
+<div class="metric"><span class="label">Health</span><strong>On Track</strong><span>milestones / dependencies</span></div>
+</div>
+<div class="twocol"><div><div class="label">Evidence ladder</div><p><b>Baseline</b> → current state<br><b>Reach</b> → who participated?<br><b>Learning</b> → did capability change?<br><b>Adoption</b> → did use continue?<br><b>Outcomes</b> → did behavior/program change?<br><b>Program learning</b> → what changes next time?</p></div>
+<div><div class="label">Leadership decision</div><div class="decision"><span>CONTINUE</span><span>MODIFY</span><span>EXPAND</span><span>REPLICATE</span><span>FURTHER REVIEW</span></div><p><b>Data informs the decision. Governance makes the decision.</b></p></div></div>
+<p class="big">Decision → Question → KPI → Data → Visualization → Learning → Better Decision</p>
+</div></section>
+<section id="scale"><div class="wrap reveal">
+<div class="eyebrow">05 — Scale + Contribution</div><h2>Scale the learning — not a cookie-cutter pilot</h2>
+<p class="sub">Pilot → Evidence → Learn → Standardize → Adapt → Replicate → Measure ↻</p>
+<div class="standard"><div><h3>STANDARDIZE</h3><p>Opportunity lifecycle<br>Discovery framework + decision gates<br>Pilot charter + governance<br>Roles / decision rights<br>Measurement + lessons learned<br>Replication criteria</p></div>
+<div><h3>CUSTOMIZE</h3><p>Academic / research objective<br>Workload + technical environment<br>Engagement type + content<br>Local stakeholders + resources<br>Success measures<br>Execution details</p></div></div>
+<div class="contrib"><div><p class="big">Institution → Pattern → Playbook → Portfolio</p><p style="color:var(--green);font-weight:800">A scalable program model needs permission to say no.</p><p class="muted">The goal is not to copy a successful pilot. It is to understand why it worked, preserve what should repeat, and adapt what should not.</p></div>
+<div><div class="label">Where I Could Contribute</div><h3 style="font-size:25px;margin-top:8px">Build the operating structure around specialized expertise.</h3><p>Program operating model • university & researcher engagement • cross-functional execution • measurement & scaling • technical translation.</p><p><b>Help the right experts answer the right questions, execute against clear objectives, learn from evidence, and scale what works.</b></p></div></div>
+<div class="mantra">STANDARDIZE THE OPERATING MODEL. CUSTOMIZE THE ENGAGEMENT.</div>
+</div></section>
+<section id="about"><div class="wrap reveal">
+<div class="eyebrow">About the Author</div><h2>Where this perspective comes from</h2>
+<div class="about">
+<div><p class="big">Research & higher education → enterprise program operations → technical/GPU exposure.</p>
+<p class="muted">My experience spans university and federally funded research environments, enterprise-scale governance and operations, and early-stage technical program work. The common thread is translating specialized objectives into structured execution: owners, resources, dependencies, decisions, risks, measurement, and learning.</p></div>
+<div class="aboutfacts"><b>Karim McKenzie, PMP | CSM | LSSGB</b>
+<p>Program & Project Management<br>Higher Education & Research<br>Technical Program Operations</p>
+<p class="muted">This case study is independent work developed for discussion purposes from publicly available information and illustrative scenarios.</p></div>
+</div></div></section>
+<footer class="footer"><div class="wrap">
+<b>Karim McKenzie, PMP | CSM | LSSGB</b><br>
+Independent case study developed from publicly available information. Institutional examples and potential engagement pathways are illustrative and do not represent NVIDIA internal strategy, data, or program decisions.
+</div></footer>
+<script>
+const bar=document.getElementById('progress');
+function prog(){const h=document.documentElement;bar.style.width=((h.scrollTop/(h.scrollHeight-h.clientHeight))*100)+'%'}
+addEventListener('scroll',prog,{passive:true}); prog();
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('on')}),{threshold:.08});
+document.querySelectorAll('.reveal').forEach(x=>io.observe(x));
+</script>
+</body></html>
